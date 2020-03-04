@@ -1,24 +1,22 @@
-
-
 # jest-jenkins-reporter
 
 A plugin that integrates jest test results into Jenkins.
 
-# Installation
+## Installation
 
-```
+```bash
 $ npm install --save jest-jenkins-reporter
 or
 $ yarn add jest-jenkins-reporter --dev
 ```
 
-# Usage
+## Usage
 
 Configuring package.json
 
 Add jest test result processor, here is jest-jerkins-reporter. If you want to use your self processor, you can replace "jest-jerkins-reporter".
 
-```
+```json
 "jest": {
     ...
     ...
@@ -26,11 +24,9 @@ Add jest test result processor, here is jest-jerkins-reporter. If you want to us
   }
 ```
 
-
-
 Reporter file config:
 
-```
+```json
 "jestSonar": {
     "reportPath": "reports",
     "reportFile": "report.xml",
@@ -43,17 +39,12 @@ Reporter file config:
 * `reportFile`: Report file name.
 * `indent`: XML file indentation space number. 
 
-
-
 Test script:
 
-```
+```bash
 "test-jenkins": "NODE_ENV=test jest --colors"
 ```
-
-
 
 ## License
 
 MIT
-
