@@ -1,6 +1,6 @@
 {
   "name": "@digitalroute/jest-jenkins-reporter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A test reporter of jenkins for Jest.",
   "main": "index.js",
   "author": "pilipa-cn oyhanyu",
@@ -19,6 +19,9 @@
   },
   "license": "MIT",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "jest": "^25.1.0",
     "xml": "^1.0.1"

@@ -5,16 +5,16 @@ A plugin that integrates jest test results into Jenkins.
 ## Installation
 
 ```bash
-$ npm install --save jest-jenkins-reporter
+$ npm install --save-dev @digitalroute/jest-jenkins-reporter
 or
-$ yarn add jest-jenkins-reporter --dev
+$ yarn add @digitalroute/jest-jenkins-reporter --dev
 ```
 
 ## Usage
 
 Configuring package.json
 
-Add jest test result processor, here is jest-jerkins-reporter. If you want to use your self processor, you can replace "jest-jerkins-reporter".
+Add jest test result processor, here is jest-jenkins-reporter. If you want to use your self processor, you can replace "jest-jenkins-reporter".
 
 ```json
 "jest": {
