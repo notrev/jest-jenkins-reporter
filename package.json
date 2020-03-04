@@ -1,6 +1,6 @@
 {
   "name": "@digitalroute/jest-jenkins-reporter",
-  "version": "1.0.4",
+  "version": "0.0.0-semantically-released",
   "description": "A test reporter of jenkins for Jest.",
   "main": "index.js",
   "author": "pilipa-cn oyhanyu",
@@ -9,13 +9,11 @@
     "jenkins",
     "reporter"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com:digitalroute/jest-jenkins-reporter.git"
-  },
   "homepage": "https://github.com/digitalroute/jest-jenkins-reporter",
   "scripts": {
-    "test": "jest -u --color"
+    "test": "jest -u --color",
+    "commit": "git-cz",
+    "semantic-release": "semantic-release"
   },
   "license": "MIT",
   "private": false,
@@ -25,6 +23,17 @@
   "dependencies": {
     "jest": "^25.1.0",
     "xml": "^1.0.1"
+  },
+  "devDependencies": {
+    "@digitalroute/cz-conventional-changelog-for-jira": "^4.1.4",
+    "commitizen": "^4.0.3",
+    "semantic-release": "^15.13.19"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/@digitalroute/cz-conventional-changelog-for-jira",
+      "jiraMode": false
+    }
   },
   "jest": {
     "testEnvironment": "node",
