@@ -1,3 +1,5 @@
+![Node.js CI](https://github.com/digitalroute/jest-jenkins-reporter/workflows/Node.js%20CI/badge.svg?branch=master)
+
 # jest-jenkins-reporter
 
 A plugin that integrates jest test results into Jenkins.
