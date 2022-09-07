@@ -21,13 +21,13 @@
     "access": "public"
   },
   "dependencies": {
-    "jest": "^25.1.0",
+    "jest": "^29.0.2",
     "xml": "^1.0.1"
   },
   "devDependencies": {
-    "@digitalroute/cz-conventional-changelog-for-jira": "^6.3.0",
-    "commitizen": "^4.2.3",
-    "semantic-release": "^17.4.2"
+    "@digitalroute/cz-conventional-changelog-for-jira": "^7.4.0",
+    "@ryansonshine/commitizen": "^4.2.8",
+    "semantic-release": "^19.0.5"
   },
   "config": {
     "commitizen": {
